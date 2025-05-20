@@ -14,5 +14,7 @@ def main():
     valor2 = 15
     somadosvalores = calculavalores(valor, valor2)
     mostrarresultados(somadosvalores)
+    resultadovalores = multiplicavalores(valor, valor2)
+    mostrarresultados(resultadovalores)
 
 main()
