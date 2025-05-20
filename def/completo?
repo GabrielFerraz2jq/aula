@@ -1,0 +1,18 @@
+def calculavalores(n1, n2):
+    soma = n1 + n2
+    return soma
+
+def multiplicavalores(n1, n2):
+    multiplicacao = n1 * n2
+    return multiplicacao
+
+def mostrarresultados(resultado):
+    print("resultado:", resultado)
+
+def main():
+    valor = 10
+    valor2 = 15
+    somadosvalores = calculavalores(valor, valor2)
+    mostrarresultados(somadosvalores)
+
+main()
