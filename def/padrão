@@ -1,0 +1,4 @@
+def main():
+    valor = 10
+    print(valor)
+main()
